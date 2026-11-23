@@ -1,4 +1,3 @@
-
 /* Configs. Gerais */
 * {
     margin: 0;
@@ -20,7 +19,7 @@ body {
 }
 
 
-/* Head */
+/* Header */
 header {
     text-align: center;
     padding: 50px 20px 30px;
@@ -84,8 +83,7 @@ main {
     margin: 40px auto;
 }
 
-/* Seções principais */
-
+/* Main sections */
 main > section,
 main > aside {
     background-color: rgba(255, 255, 255, 0.8);
@@ -100,15 +98,13 @@ main > aside:hover {
     box-shadow: 0 8px 25px rgba(59, 96, 100, 0.18);
 }
 
-/*Navegação entre seções */
-
+/* Nav entre sections */
 section[id],
 aside[id] {
     scroll-margin-top: 100px;
 }
 
-/* Organização das seções */
-
+/*Sections*/
 #sobre,
 #projetos {
     display: grid;
@@ -134,7 +130,7 @@ p {
 }
 
 
-/* Lists */
+/* Listas */
 ul, ol {
     padding-left: 25px;
 }
@@ -144,7 +140,7 @@ li {
 }
 
 
-/*Imagens*/
+/* Imgs. Hobbies */
 .hobbies-conteudo {
     display: flex;
     justify-content: space-between;
@@ -173,7 +169,7 @@ li {
 }
 
 
-/* Tables */
+/* Tablews */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -203,8 +199,6 @@ tr:hover {
 
 
 /* Bootstrap */
-/* Subtítulo centralizado com barra inferior */
-
 #frameworks .subtitle {
     border-left: none;
     padding-left: 0;
@@ -223,6 +217,7 @@ tr:hover {
     margin: 10px auto 0;
 }
 
+/* Evita conflitos com as seções internas */
 #frameworks > .row {
     background: transparent;
     margin: 0;
@@ -232,7 +227,6 @@ tr:hover {
 }
 
 /* Cards */
-
 #frameworks .card {
     height: 100%;
     border-radius: 10px;
@@ -244,8 +238,7 @@ tr:hover {
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
-/* Botões dos cards */
-
+/* Button dos cards */
 #frameworks .btn-primary {
     background-color: #523b64;
     border-color: #523b64;
@@ -256,15 +249,12 @@ tr:hover {
     border-color: #9f87bb;
     color: #34263d;
 }
-
-/* Mensagem de sucesso */
-
 #frameworks .alert {
     margin-bottom: 0;
 }
 
 
-/* Footer */
+/* Foot */
 footer {
     background-color: #543b64;
     color: white;
@@ -341,8 +331,7 @@ button:hover {
     transform: translateY(-2px);
 }
 
-
-/* Rsponsividade */
+/* Responsividade */
 @media (max-width: 700px) {
 
     header {
